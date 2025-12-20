@@ -1,4 +1,4 @@
-# Tarea Nº4: Mi tarjeta de presentación en React
+# (PENDIENTE DE REALIZACIÓN)Tarea Nº4: Mi tarjeta de presentación en React
 
 ## Descripción del Proyecto
 
@@ -24,11 +24,8 @@ Luego abrir el navegador en la URL indicada por Vite (por defecto `http://localh
 
 ## Capturas de Pantalla
 
-- Caso positivo:
+- Tarjetas:
   ![Tarjetas]()
-
-- Caso negativo:
-  ![Tarjeta]()
 
 ## Créditos
 
