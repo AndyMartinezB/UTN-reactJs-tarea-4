@@ -1,35 +1,43 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { useState } from "react";
+import reactLogo from "./assets/react.svg";
+import viteLogo from "/vite.svg";
+import "@/App.css";
+import Tarjeta from "@/components/Tarjeta/Tarjeta.jsx";
 
 function App() {
-  const [count, setCount] = useState(0)
+  const nombre = "Andy";
+
+  // function Saludo() {
+  //   return <h2>¡Hola, {nombre.toUpperCase()}!</h2>;
+  // }
 
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+    <div className="App">
+      <header>
+        <h1>Primer proyecto react</h1>
+      </header>
+      <div className="contenedor-tarjetas">
+        <Tarjeta
+          imagen="https://cdn-icons-png.freepik.com/256/12631/12631417.png?semt=ais_white_label"
+          nombre="Usuario"
+          profesion="Desarrollador Web"
+          descripcion="Esta es la descripcion de la tarjeta"
+        />
+        <Tarjeta
+          imagen="https://cdn-icons-png.freepik.com/256/12631/12631417.png?semt=ais_white_label"
+          nombre="Usuario"
+          profesion="Desarrollador Web"
+          descripcion="Esta es la descripcion de la tarjeta"
+        />
+        <Tarjeta
+          imagen="https://cdn-icons-png.freepik.com/256/12631/12631417.png?semt=ais_white_label"
+          nombre="Usuario"
+          profesion="Desarrollador Web"
+          descripcion="Esta es la descripcion de la tarjeta"
+        />
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+    </div>
+  );
 }
 
-export default App
+export default App;
