@@ -1,4 +1,4 @@
-# (PENDIENTE DE REALIZACIÓN)Tarea Nº4: Mi tarjeta de presentación en React
+# Tarea Nº4: Mi tarjeta de presentación en React
 
 ## Descripción del Proyecto
 
@@ -26,6 +26,11 @@ Luego abrir el navegador en la URL indicada por Vite (por defecto `http://localh
 
 - Tarjetas:
   ![Tarjetas]()
+
+## Fuentes utilizadas
+- Imagen 1: https://img.freepik.com/foto-gratis/programador-smiley-tiro-medio-interiores_23-2149101154.jpg?semt=ais_hybrid&w=740&q=80)
+- Imagen 2: https://img.freepik.com/foto-gratis/asistente-medico-preparandose-ejercicios-fisioterapia_23-2149071431.jpg?semt=ais_hybrid&w=740&q=80
+- Imagen 3: https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=256&h=256&fit=crop
 
 ## Créditos
 
