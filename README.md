@@ -25,7 +25,8 @@ Luego abrir el navegador en la URL indicada por Vite (por defecto `http://localh
 ## Capturas de Pantalla
 
 - Tarjetas:
-  ![Tarjetas]()
+  ![Tarjetas](https://raw.githubusercontent.com/AndyMartinezB/UTN-reactJs-tarea-4/main/public/captura-pantalla/screen.jpg
+  )
 
 ## Fuentes utilizadas
 - Imagen 1: https://img.freepik.com/foto-gratis/programador-smiley-tiro-medio-interiores_23-2149101154.jpg?semt=ais_hybrid&w=740&q=80)
